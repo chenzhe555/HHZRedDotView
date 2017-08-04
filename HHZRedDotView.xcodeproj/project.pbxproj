@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744BC8C71F305CE1002B87C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744BC8C61F305CE1002B87C8 /* main.m */; };
+		744BC8CA1F305CE1002B87C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 744BC8C91F305CE1002B87C8 /* AppDelegate.m */; };
+		744BC8CD1F305CE1002B87C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744BC8CC1F305CE1002B87C8 /* ViewController.m */; };
+		744BC8D01F305CE1002B87C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744BC8CE1F305CE1002B87C8 /* Main.storyboard */; };
+		744BC8D21F305CE1002B87C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744BC8D11F305CE1002B87C8 /* Assets.xcassets */; };
+		744BC8D51F305CE1002B87C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744BC8D31F305CE1002B87C8 /* LaunchScreen.storyboard */; };
+		744BC8DF1F305DB0002B87C8 /* HHZBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744BC8DE1F305DB0002B87C8 /* HHZBadgeView.m */; };
+		744BC8E31F305DE3002B87C8 /* HHZRedDotTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 744BC8E21F305DE3002B87C8 /* HHZRedDotTool.m */; };
+		DDB34DD15FA0852818B069FB /* libPods-HHZRedDotView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5658F7248C27C63FC1187E /* libPods-HHZRedDotView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		744BC8C21F305CE1002B87C8 /* HHZRedDotView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZRedDotView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		744BC8C61F305CE1002B87C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		744BC8C81F305CE1002B87C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		744BC8C91F305CE1002B87C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		744BC8CB1F305CE1002B87C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		744BC8CC1F305CE1002B87C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		744BC8CF1F305CE1002B87C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		744BC8D11F305CE1002B87C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		744BC8D41F305CE1002B87C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		744BC8D61F305CE1002B87C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744BC8DD1F305DB0002B87C8 /* HHZBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZBadgeView.h; sourceTree = "<group>"; };
+		744BC8DE1F305DB0002B87C8 /* HHZBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZBadgeView.m; sourceTree = "<group>"; };
+		744BC8E11F305DE3002B87C8 /* HHZRedDotTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZRedDotTool.h; sourceTree = "<group>"; };
+		744BC8E21F305DE3002B87C8 /* HHZRedDotTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZRedDotTool.m; sourceTree = "<group>"; };
+		875F5F733C7999E6774CD333 /* Pods-HHZRedDotView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZRedDotView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZRedDotView/Pods-HHZRedDotView.release.xcconfig"; sourceTree = "<group>"; };
+		8F5658F7248C27C63FC1187E /* libPods-HHZRedDotView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZRedDotView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D326E82F7522B3AF45CF4 /* Pods-HHZRedDotView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZRedDotView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZRedDotView/Pods-HHZRedDotView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		744BC8BF1F305CE1002B87C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB34DD15FA0852818B069FB /* libPods-HHZRedDotView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A14B41EB1A353CA8AD4346E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F5658F7248C27C63FC1187E /* libPods-HHZRedDotView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DA2524E0D9ADC9ABC45ED8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD1D326E82F7522B3AF45CF4 /* Pods-HHZRedDotView.debug.xcconfig */,
+				875F5F733C7999E6774CD333 /* Pods-HHZRedDotView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		744BC8B91F305CE0002B87C8 = {
+			isa = PBXGroup;
+			children = (
+				744BC8C41F305CE1002B87C8 /* HHZRedDotView */,
+				744BC8C31F305CE1002B87C8 /* Products */,
+				4DA2524E0D9ADC9ABC45ED8B /* Pods */,
+				3A14B41EB1A353CA8AD4346E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		744BC8C31F305CE1002B87C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				744BC8C21F305CE1002B87C8 /* HHZRedDotView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		744BC8C41F305CE1002B87C8 /* HHZRedDotView */ = {
+			isa = PBXGroup;
+			children = (
+				744BC8DC1F305D88002B87C8 /* classes */,
+				744BC8C81F305CE1002B87C8 /* AppDelegate.h */,
+				744BC8C91F305CE1002B87C8 /* AppDelegate.m */,
+				744BC8CB1F305CE1002B87C8 /* ViewController.h */,
+				744BC8CC1F305CE1002B87C8 /* ViewController.m */,
+				744BC8CE1F305CE1002B87C8 /* Main.storyboard */,
+				744BC8D11F305CE1002B87C8 /* Assets.xcassets */,
+				744BC8D31F305CE1002B87C8 /* LaunchScreen.storyboard */,
+				744BC8D61F305CE1002B87C8 /* Info.plist */,
+				744BC8C51F305CE1002B87C8 /* Supporting Files */,
+			);
+			path = HHZRedDotView;
+			sourceTree = "<group>";
+		};
+		744BC8C51F305CE1002B87C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				744BC8C61F305CE1002B87C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		744BC8DC1F305D88002B87C8 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				744BC8DD1F305DB0002B87C8 /* HHZBadgeView.h */,
+				744BC8DE1F305DB0002B87C8 /* HHZBadgeView.m */,
+				744BC8E11F305DE3002B87C8 /* HHZRedDotTool.h */,
+				744BC8E21F305DE3002B87C8 /* HHZRedDotTool.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744BC8C11F305CE1002B87C8 /* HHZRedDotView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744BC8D91F305CE1002B87C8 /* Build configuration list for PBXNativeTarget "HHZRedDotView" */;
+			buildPhases = (
+				EA5C502C494478B27C8D3C51 /* [CP] Check Pods Manifest.lock */,
+				744BC8BE1F305CE1002B87C8 /* Sources */,
+				744BC8BF1F305CE1002B87C8 /* Frameworks */,
+				744BC8C01F305CE1002B87C8 /* Resources */,
+				25D169D531331A7643DD746E /* [CP] Embed Pods Frameworks */,
+				F660475DCAEF8A8D040553EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHZRedDotView;
+			productName = HHZRedDotView;
+			productReference = 744BC8C21F305CE1002B87C8 /* HHZRedDotView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		744BC8BA1F305CE0002B87C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈哲是个好孩子";
+				TargetAttributes = {
+					744BC8C11F305CE1002B87C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P5LP3WSZUP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 744BC8BD1F305CE0002B87C8 /* Build configuration list for PBXProject "HHZRedDotView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 744BC8B91F305CE0002B87C8;
+			productRefGroup = 744BC8C31F305CE1002B87C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				744BC8C11F305CE1002B87C8 /* HHZRedDotView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		744BC8C01F305CE1002B87C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744BC8D51F305CE1002B87C8 /* LaunchScreen.storyboard in Resources */,
+				744BC8D21F305CE1002B87C8 /* Assets.xcassets in Resources */,
+				744BC8D01F305CE1002B87C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25D169D531331A7643DD746E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZRedDotView/Pods-HHZRedDotView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5C502C494478B27C8D3C51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F660475DCAEF8A8D040553EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZRedDotView/Pods-HHZRedDotView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		744BC8BE1F305CE1002B87C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744BC8CD1F305CE1002B87C8 /* ViewController.m in Sources */,
+				744BC8DF1F305DB0002B87C8 /* HHZBadgeView.m in Sources */,
+				744BC8CA1F305CE1002B87C8 /* AppDelegate.m in Sources */,
+				744BC8C71F305CE1002B87C8 /* main.m in Sources */,
+				744BC8E31F305DE3002B87C8 /* HHZRedDotTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		744BC8CE1F305CE1002B87C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744BC8CF1F305CE1002B87C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		744BC8D31F305CE1002B87C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744BC8D41F305CE1002B87C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		744BC8D71F305CE1002B87C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		744BC8D81F305CE1002B87C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		744BC8DA1F305CE1002B87C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1D326E82F7522B3AF45CF4 /* Pods-HHZRedDotView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				INFOPLIST_FILE = HHZRedDotView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZRedDotView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		744BC8DB1F305CE1002B87C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875F5F733C7999E6774CD333 /* Pods-HHZRedDotView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				INFOPLIST_FILE = HHZRedDotView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZRedDotView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744BC8BD1F305CE0002B87C8 /* Build configuration list for PBXProject "HHZRedDotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744BC8D71F305CE1002B87C8 /* Debug */,
+				744BC8D81F305CE1002B87C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744BC8D91F305CE1002B87C8 /* Build configuration list for PBXNativeTarget "HHZRedDotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744BC8DA1F305CE1002B87C8 /* Debug */,
+				744BC8DB1F305CE1002B87C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 744BC8BA1F305CE0002B87C8 /* Project object */;
+}
